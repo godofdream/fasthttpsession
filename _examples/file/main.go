@@ -5,7 +5,7 @@ package main
 import (
 	"github.com/phachon/fasthttpsession"
 	"github.com/phachon/fasthttpsession/file"
-	"github.com/valyala/fasthttp"
+	"github.com/erikdubbelboer/fasthttp"
 	"log"
 	"os"
 )

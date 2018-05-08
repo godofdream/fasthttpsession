@@ -4,7 +4,7 @@ package main
 
 import (
 	"github.com/phachon/fasthttpsession"
-	"github.com/valyala/fasthttp"
+	"github.com/erikdubbelboer/fasthttp"
 	"log"
 	"os"
 	"github.com/phachon/fasthttpsession/mysql"
