@@ -4,7 +4,7 @@ package main
 
 import (
 	"github.com/phachon/fasthttpsession"
-	"github.com/erikdubbelboer/fasthttp"
+	"github.com/godofdream/fasthttp"
 	"log"
 	"os"
 	"github.com/phachon/fasthttpsession/sqlite3"

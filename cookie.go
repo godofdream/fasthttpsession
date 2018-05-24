@@ -1,16 +1,16 @@
 package fasthttpsession
 
 import (
-	"github.com/erikdubbelboer/fasthttp"
 	"time"
+
+	"github.com/godofdream/fasthttp"
 )
 
 func NewCookie() *Cookie {
 	return &Cookie{}
 }
 
-type Cookie struct  {
-
+type Cookie struct {
 }
 
 // get cookie by name
@@ -23,7 +23,7 @@ func (c *Cookie) Get(ctx *fasthttp.RequestCtx, name string) (value string) {
 }
 
 // response set cookie
-func (c *Cookie) Set(ctx *fasthttp.RequestCtx, name string, value string, domain string, expires time.Duration, secure bool)  {
+func (c *Cookie) Set(ctx *fasthttp.RequestCtx, name string, value string, domain string, expires time.Duration, secure bool) {
 
 	cookie := fasthttp.AcquireCookie()
 	defer fasthttp.ReleaseCookie(cookie)

@@ -2,7 +2,7 @@ package redis
 
 import (
 	"github.com/phachon/fasthttpsession"
-	"github.com/erikdubbelboer/fasthttp"
+	"github.com/godofdream/fasthttp"
 )
 
 // session redis store

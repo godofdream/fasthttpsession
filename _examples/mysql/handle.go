@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/erikdubbelboer/fasthttp"
+	"github.com/godofdream/fasthttp"
 	"fmt"
 	"github.com/phachon/fasthttpsession"
 )

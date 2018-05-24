@@ -2,7 +2,7 @@ package file
 
 import (
 	"github.com/phachon/fasthttpsession"
-	"github.com/erikdubbelboer/fasthttp"
+	"github.com/godofdream/fasthttp"
 	"io/ioutil"
 	"os"
 	"time"

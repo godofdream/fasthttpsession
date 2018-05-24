@@ -1,7 +1,7 @@
 package fasthttpsession
 
 import (
-	"github.com/erikdubbelboer/fasthttp"
+	"github.com/godofdream/fasthttp"
 	"errors"
 	"time"
 	"fmt"
